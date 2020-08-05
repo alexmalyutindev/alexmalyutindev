@@ -11,6 +11,10 @@ I'm Unity C# Developer since 2014...
 [twitter]: https://twitter.com/alexmalyutindev/
 [linkedin]: https://www.linkedin.com/in/alexmalyutindev/
 
+<br />
+
+<img align="left" alt="alexmalyutindev's Github Stats" src="https://github-readme-stats.vercel.app/api?username=alexmalyutindev&show_icons=true&hide_border=true" />
+
 
 <!--
 **alexmalyutindev/alexmalyutindev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
