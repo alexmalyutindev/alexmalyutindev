@@ -11,7 +11,7 @@ I'm Unity C# Developer since 2014...
 <br />
 
 ___
-<img align="left" alt="alexmalyutindev's Github Stats" src="https://github-readme-stats.vercel.app/api?username=alexmalyutindev&show_icons=true&hide_border=true" />
+<img align="left" alt="alexmalyutindev's Github Stats" src="https://github-readme-stats.vercel.app/api?username=alexmalyutindev&show_icons=true&hide_border=true&theme=dark" />
 
 
 [twitter]: https://twitter.com/alexmalyutindev/
