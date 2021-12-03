@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="https://webglsamples.org/tdl/webgl.js"></script>
+    </head>
+    <body id="viewContainer">
+        <canvas id="c">
+        <script id="vertex" type="x-glsl-shader/x-vertex">
+            attribute mediump vec2 position;
+
+            void main() {
+                gl_Position = position;
+            }
+        </script>
+        <script id="fragment" type="x-glsl-shader/x-fragment">
+            void main() {
+                gl_FragColor = 1.0;
+            }
+        </script>
+    </body>
+</html>
