@@ -1,7 +1,7 @@
 initWebGL();
 
 function initWebGL() {
-    const canvas = document.querySelector('#glcanvas');
+    const canvas = document.querySelector("#glcanvas");
     const gl = canvas.getContext('webgl');
 
     // Shader
@@ -17,26 +17,26 @@ function initWebGL() {
     `;
     const fragmentSrc = `
         void main() {
-            gl_FragColor = 1.0;
+            gl_FragColor = vec4(1.0);
         }
     `;
 
     shaderId = "vertex";
     type = gl.VERTEX_SHADER;
 
-    var vertex = gl.createShader(gl.VERTEX_SHADER);
-    var fragment = gl.createShader(gl.FRAGMENT_SHADER);
-    gl.shaderSource(vertex, vertexSrc);
-    gl.compileShader(vertex);
-
-    gl.shaderSource(fragment, fragmentSrc);
-    gl.compileShader(fragment);
+    const vertexShader = loadShader(gl, gl.VERTEX_SHADER, vertexSrc);
+    const fragmentShader = loadShader(gl, gl.FRAGMENT_SHADER, fragmentSrc);
 
     const shaderProgram = gl.createProgram();
-    gl.attachShader(shaderProgram, vertex);
-    gl.attachShader(shaderProgram, fragment);
+    gl.attachShader(shaderProgram, vertexShader);
+    gl.attachShader(shaderProgram, fragmentShader);
     gl.linkProgram(shaderProgram);
+    console.log(shaderProgram);
 
+    if (!gl.getProgramParameter(shaderProgram, gl.LINK_STATUS)) {
+        alert('Unable to initialize the shader program: ' + gl.getProgramInfoLog(shaderProgram));
+        return null;
+    }
 
     // Map of shader data
     const programInfo = {
@@ -50,7 +50,7 @@ function initWebGL() {
         },
     };
 
-    // Vertex Buffer
+    // Init Vertex Buffer
     const positionBuffer = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
     const positions = [
@@ -71,6 +71,54 @@ function initWebGL() {
     gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
 
     // Camera Frustum
+    const projectionMatrix = createCameraMat(gl);
+
+    // MVP Matrix
+    const modelViewMatrix = mat4.create();
+    mat4.translate(modelViewMatrix,
+        modelViewMatrix,
+        [0.0, 0.0, -6.0]);
+
+    // Vertex Buffer
+    gl.enableVertexAttribArray(programInfo.attribLocations.vertexPosition);
+    {
+        const numComponents = 2;
+        const type = gl.FLOAT;
+        const normalize = false;
+        const stride = 0;
+        const offset = 0;
+        gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+        gl.vertexAttribPointer(
+            programInfo.attribLocations.vertexPosition,
+            numComponents,
+            type,
+            normalize,
+            stride,
+            offset);
+        gl.enableVertexAttribArray(
+            programInfo.attribLocations.vertexPosition);
+    }
+
+    // Render
+    {
+        gl.useProgram(programInfo.program);
+
+        gl.uniformMatrix4fv(
+            programInfo.uniformLocations.projectionMatrix,
+            false,
+            projectionMatrix);
+        gl.uniformMatrix4fv(
+            programInfo.uniformLocations.modelViewMatrix,
+            false,
+            modelViewMatrix);
+
+        const offset = 0;
+        const vertexCount = 4;
+        gl.drawArrays(gl.TRIANGLE_STRIP, offset, vertexCount);
+    }
+}
+
+function createCameraMat(gl) {
     const fieldOfView = 45 * Math.PI / 180;   // in radians
     const aspect = gl.canvas.clientWidth / gl.canvas.clientHeight;
     const zNear = 0.1;
@@ -83,34 +131,19 @@ function initWebGL() {
         zNear,
         zFar);
 
-    // MVP Matrix
-    const modelViewMatrix = mat4.create();
-    mat4.translate(modelViewMatrix,
-        modelViewMatrix,
-        [0.0, 0.0, -6.0]);
+    return projectionMatrix;
+}
 
-    gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
-    gl.vertexAttribPointer(
-        gl.getAttribLocation(shaderProgram, 'position'),
-        2, gl.FLOAT,
-        false, 0, 0
-    );
-    gl.enableVertexAttribArray(programInfo.attribLocations.vertexPosition);
+function loadShader(gl, type, source) {
+    const shader = gl.createShader(type);
+    gl.shaderSource(shader, source);
+    gl.compileShader(shader);
 
+    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+        console.log('An error occurred compiling the shaders: ' + gl.getShaderInfoLog(shader));
+        gl.deleteShader(shader);
+        return null;
+    }
 
-    // Render
-    gl.useProgram(programInfo.program);
-
-    gl.uniformMatrix4fv(
-        programInfo.uniformLocations.projectionMatrix,
-        false,
-        projectionMatrix);
-    gl.uniformMatrix4fv(
-        programInfo.uniformLocations.modelViewMatrix,
-        false,
-        modelViewMatrix);
-
-    const offset = 0;
-    const vertexCount = 4;
-    gl.drawArrays(gl.TRIANGLE_STRIP, offset, vertexCount);
+    return shader;
 }

@@ -1,22 +1,13 @@
+<!doctype html>
 <html>
-    <head>
-        <script src="https://webglsamples.org/tdl/webgl.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
-        <script src="index.js"></script>
-    </head>
-    <body id="viewContainer">
-        <canvas id="glcanvas" width="640" height="480" ></canvas>
-        <script id="vertex" type="x-glsl-shader/x-vertex">
-            attribute mediump vec2 position;
 
-            void main() {
-                gl_Position = position;
-            }
-        </script>
-        <script id="fragment" type="x-glsl-shader/x-fragment">
-            void main() {
-                gl_FragColor = 1.0;
-            }
-        </script>
-    </body>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <canvas id="glcanvas" width="640" height="480"></canvas>
+</body>
+
 </html>
