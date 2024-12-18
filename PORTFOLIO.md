@@ -6,7 +6,7 @@ Portfolio Alexandr Malyutin
 ## Interactive snow [[link](https://x.com/alexmalyutindev/status/1841541664277475583)]
 <img src="./files/interactive-snow.png" width=50%>
 
-## Geometry Terrain Blend [[link](https://github.com/alexmalyutindev/urp-terrain-blend)]
+## Geometry Terrain Blend [[repo](https://github.com/alexmalyutindev/urp-terrain-blend)]
 <img src="./files/geom-terrain-blend.png" width=50%>
 
 ## Triplanar Terrain Mapping [[link](https://x.com/alexmalyutindev/status/1859205873580622301)]
@@ -24,12 +24,12 @@ Portfolio Alexandr Malyutin
 ## Foliage Translucency [[link](https://x.com/alexmalyutindev/status/1855704297050116353)]
 <img src="./files/foliage-translucency.png" width=50%>
 
-## Voxel based GI [[link](https://x.com/alexmalyutindev/status/1759652466277151195)]
+## Voxel based GI [[link](https://x.com/alexmalyutindev/status/1759652466277151195)][[repo](https://github.com/alexmalyutindev/unity-urp-vxgi)]
 | <img src="./files/vxgi-1.png"> | <img src="./files/vxgi-0.png"> |
 | :----------------------------: | :----------------------------: |
 |               On               |              Off               |
 
-## Radiance Cascades GI [[link](https://x.com/alexmalyutindev/status/1862402458569359714)]
+## Radiance Cascades GI [[link](https://x.com/alexmalyutindev/status/1862402458569359714)][[repo](https://github.com/alexmalyutindev/unity-urp-radiance-cascades)]
 
 | <img src="./files/radiance-cascades-1.png"> | <img src="./files/radiance-cascades-0.png"> |
 | :-----------------------------------------: | :-----------------------------------------: |
