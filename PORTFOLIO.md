@@ -6,7 +6,7 @@ Portfolio Alexandr Malyutin
 ## Interactive snow [[link](https://x.com/alexmalyutindev/status/1841541664277475583)]
 <img src="./files/interactive-snow.png" width=50%>
 
-## Geometry Terrain Blend 
+## Geometry Terrain Blend [[link](https://github.com/alexmalyutindev/urp-terrain-blend)]
 <img src="./files/geom-terrain-blend.png" width=50%>
 
 ## Triplanar Terrain Mapping [[link](https://x.com/alexmalyutindev/status/1859205873580622301)]
@@ -19,9 +19,7 @@ Portfolio Alexandr Malyutin
 <img src="./files/pom.png" width=50%>
 
 ## Parallax Occlusion Mapping Decals [[link](https://x.com/alexmalyutindev/status/1845736017568903455)]
-
-| <img src="./files/pom-decal-0.png"> | <img src="./files/pom-decal-1.png"> |
-| :---------------------------------: | :---------------------------------: |
+<img src="./files/pom-decal-0.png" height=250>  <img src="./files/pom-decal-1.png" height=250>
 
 ## Foliage Translucency [[link](https://x.com/alexmalyutindev/status/1855704297050116353)]
 <img src="./files/foliage-translucency.png" width=50%>
@@ -54,7 +52,7 @@ Portfolio Alexandr Malyutin
 <img src="./files/water.gif" width=50%>
 
 ## Vertex Animated Cloth Shader
-<img src="./files/vertex-animated-cloth.gif" width=50%>
+<img src="./files/vertex-animated-cloth.gif" height=300>
 
 # Tools
 
