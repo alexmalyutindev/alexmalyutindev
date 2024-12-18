@@ -4,57 +4,57 @@ Portfolio Alexandr Malyutin
 # Rendering
 
 ## Interactive snow [[link](https://x.com/alexmalyutindev/status/1841541664277475583)]
-![](./files/interactive-snow.png)
+<img src="./files/interactive-snow.png" width=50%>
 
 ## Geometry Terrain Blend 
-![](./files/geom-terrain-blend.png)
+<img src="./files/geom-terrain-blend.png" width=50%>
 
 ## Triplanar Terrain Mapping [[link](https://x.com/alexmalyutindev/status/1859205873580622301)]
-![](./files/terrain-triplanar-mapping.png)
+<img src="./files/terrain-triplanar-mapping.png" width=50%>
 
 ## High based Terrain Maps Blend
-![](./files/terrain-height-blend.png)
+<img src="./files/terrain-height-blend.png" width=50%>
 
 ## Parallax Occlusion Mapping
-![](./files/pom.png)
+<img src="./files/pom.png" width=50%>
 
 ## Parallax Occlusion Mapping Decals [[link](https://x.com/alexmalyutindev/status/1845736017568903455)]
 
-| ![](./files/pom-decal-0.png) | ![](./files/pom-decal-1.png) |
-| :--------------------------: | :--------------------------: |
+| <img src="./files/pom-decal-0.png"> | <img src="./files/pom-decal-1.png"> |
+| :---------------------------------: | :---------------------------------: |
 
 ## Foliage Translucency [[link](https://x.com/alexmalyutindev/status/1855704297050116353)]
-![](./files/foliage-translucency.png)
+<img src="./files/foliage-translucency.png" width=50%>
 
 ## Voxel based GI [[link](https://x.com/alexmalyutindev/status/1759652466277151195)]
-| ![](./files/vxgi-1.png) | ![](./files/vxgi-0.png) |
-| :---------------------: | :---------------------: |
-|           On            |           Off           |
+| <img src="./files/vxgi-1.png"> | <img src="./files/vxgi-0.png"> |
+| :----------------------------: | :----------------------------: |
+|               On               |              Off               |
 
 ## Radiance Cascades GI [[link](https://x.com/alexmalyutindev/status/1862402458569359714)]
 
-| ![](./files/radiance-cascades-1.png) | ![](./files/radiance-cascades-0.png) |
-| :----------------------------------: | :----------------------------------: |
-|                  On                  |                 Off                  |
+| <img src="./files/radiance-cascades-1.png"> | <img src="./files/radiance-cascades-0.png"> |
+| :-----------------------------------------: | :-----------------------------------------: |
+|                     On                      |                     Off                     |
 
 
 ## 6-Way Lighting Skybox Clouds
-![](./files/6-way-lighting-skybox-clouds.png)
+<img src="./files/6-way-lighting-skybox-clouds.png" width=50%>
 
 ## Ice Refraction
-![](./files/ice.png)
+<img src="./files/ice.png" width=50%>
 
 ## Volumetric Clouds
-![](./files/volumetric-clouds.png)
+<img src="./files/volumetric-clouds.png" width=50%>
 
 ## SunShafts & Volumetric Fog
-![](./files/god-rays.png)
+<img src="./files/god-rays.png" width=50%>
 
 ## Water Shader
-![](./files/water.gif)
+<img src="./files/water.gif" width=50%>
 
 ## Vertex Animated Cloth Shader
-![](./files/vertex-animated-cloth.gif)
+<img src="./files/vertex-animated-cloth.gif" width=50%>
 
 # Tools
 
