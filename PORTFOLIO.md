@@ -54,6 +54,12 @@ Portfolio Alexandr Malyutin
 ## Vertex Animated Cloth Shader
 <img src="./files/vertex-animated-cloth.gif" height=300>
 
-# Tools
+TODO:
+- Foliage Lighting
+- Snow Shader
+- Imposters
+- Volumetric Light Fog
+- Radiance Cascades
 
+# Tools
 TODO:
