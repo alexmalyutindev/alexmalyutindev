@@ -6,6 +6,7 @@ Senior Unity C# Developer and Graphics Programmer.<br>
 <img src="./files/terrain-triplanar-mapping.png" height=100>
 <img src="./files/terrain-height-blend.png" height=100>
 <img src="./files/vxgi-1.png" height=100>
+<img src="./files/rc-direction-first-sponza.png" height=100>
 <img src="./files/ice.png" height=100>
 <img src="./files/water.gif" height=100>
 <img src="./files/pom.png" height=100>
