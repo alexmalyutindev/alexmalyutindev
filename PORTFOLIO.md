@@ -36,20 +36,15 @@ applications.
 
 > **Real-time Radiance Cascade based global illumination solution for URP**
 
-**Links:
-** [📁 Repository](https://github.com/alexmalyutindev/unity-urp-radiance-cascades) • [🎥 Demo Video 1](https://x.com/alexmalyutindev/status/1876262663552176395) • [🎥 Demo Video 2](https://x.com/alexmalyutindev/status/1887600668808257790)
+**Links:** [📁 Repository](https://github.com/alexmalyutindev/unity-urp-radiance-cascades) • [🎥 Demo Video 1](https://x.com/alexmalyutindev/status/1876262663552176395) • [🎥 Demo Video 2](https://x.com/alexmalyutindev/status/1887600668808257790)
 
-<img src="./files/radiance-cascades-1.png" width="49%"> <img src="./files/radiance-cascades-0.png" width="49%">
-<img src="./files/rc-direction-first-sponza.png" width="49%"> <img src="./files/rc-direction-first-sponza-cascade.png" width="49%">
-
----
+<img src="https://github.com/alexmalyutindev/unity-urp-radiance-cascades/raw/master/Pictures/direction-first-sponza.png" width="49%"> <img src="./files/radiance-cascades-1.png" width="49%">
 
 ### 🧊 Voxel based GI
 
 > **Real-time voxel cone tracing solution for URP**
 
-**Links:
-** [🎥 Demo](https://x.com/alexmalyutindev/status/1759652466277151195) • [📁 Repository](https://github.com/alexmalyutindev/unity-urp-vxgi)
+**Links:** [🎥 Demo](https://x.com/alexmalyutindev/status/1759652466277151195) • [📁 Repository](https://github.com/alexmalyutindev/unity-urp-vxgi)
 
 <img src="./files/vxgi-1.png" width="49%"> <img src="./files/vxgi-0.png" width="49%">
 
@@ -151,22 +146,17 @@ applications.
 
 ### 🌊 Water System
 
-> Add description
+> An advanced real-time water shader featuring Screen-Space Reflections (SSR) and volumetric shadows for enhanced realism.
 
 **Links:** [🎥 Demo](https://x.com/alexmalyutindev/status/1892290284647485745)
 
 https://github.com/user-attachments/assets/9de3770f-b0e7-45c4-8d5b-b0ff8402c5a2
 
-**ADD PICTURES:**
-
-- Real-time reflections
-- Volumetric underwater shadows
-
 ---
 
 ### 🧊 Ice Refraction
 
-> Add description
+> Physically inspired shader that simulates light bending and internal scattering in ice, producing realistic translucent surfaces with refraction and depth effects.
 
 <img src="./files/ice.png" width="50%">
 
@@ -225,7 +215,7 @@ https://github.com/user-attachments/assets/9de3770f-b0e7-45c4-8d5b-b0ff8402c5a2
 
 **Links:** [📁 Repository](https://github.com/alexmalyutindev/unity-fbm-clouds)
 
-![](./files/fbm-clouds.png)
+<img src="./files/fbm-clouds.png" width=50%>
 
 ---
 
