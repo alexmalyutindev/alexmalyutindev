@@ -1,18 +1,10 @@
-# 🎮 Graphics & Rendering Developer Portfolio
-
-> **Real-time visual effects • Shaders • Global illumination • Unity URP • HLSL**
-
----
+# 🎮 Graphics Developer Portfolio
 
 ## 👋 About Me
 
-Welcome! I'm a graphics and rendering developer passionate about real-time visual effects, shaders, and global
-illumination techniques. This portfolio highlights my experiments and open-source projects in Unity URP, HLSL, and
-advanced rendering.
+Welcome! I'm Alexandr, a **Graphics Programmer** passionate about real-time graphics. This portfolio showcases my experiments and open-source projects in **Unity URP**, **HLSL**, and advanced rendering techniques.
 
-I specialize in real-time rendering and visual effects, focusing on Unity's Universal Render Pipeline (URP) and shader
-programming in HLSL. I enjoy creating systems that push the boundaries of what can be achieved visually in interactive
-applications.
+I specialize in real-time rendering and visual effects, focusing on Unity's Universal Render Pipeline (URP) and shader programming in HLSL. I enjoy creating systems that push the boundaries of what can be achieved visually in interactive applications.
 
 ---
 
@@ -24,6 +16,7 @@ applications.
     - [Lighting](#%EF%B8%8F-lighting)
     - [Misc](#misc)
 - [Code & Tools](#%EF%B8%8F-code--tools)
+- [Some Project I Worked On](#-some-projects-i-worked-on)
 - [Contact](#-contact)
 
 ---
@@ -34,7 +27,7 @@ applications.
 
 ### 🔆 Radiance Cascades GI
 
-> **Real-time Radiance Cascade based global illumination solution for URP**
+> **Real-time global illumination system based on Radiance Cascades technique, providing dynamic indirect lighting with real-time light bouncing**
 
 **Links:** [📁 Repository](https://github.com/alexmalyutindev/unity-urp-radiance-cascades) • [🎥 Demo Video 1](https://x.com/alexmalyutindev/status/1876262663552176395) • [🎥 Demo Video 2](https://x.com/alexmalyutindev/status/1887600668808257790)
 
@@ -42,7 +35,7 @@ applications.
 
 ### 🧊 Voxel based GI
 
-> **Real-time voxel cone tracing solution for URP**
+> **Real-time global illumination using voxel cone tracing technique, featuring 3D voxelization of the scene and cone-traced indirect lighting for accurate light bouncing and ambient occlusion**
 
 **Links:** [🎥 Demo](https://x.com/alexmalyutindev/status/1759652466277151195) • [📁 Repository](https://github.com/alexmalyutindev/unity-urp-vxgi)
 
@@ -52,7 +45,7 @@ applications.
 
 ### 📺 PoorGI (Screen Space GI)
 
-> **Basic implementation of Screen Space Global Illumination (SSGI) for Unity URP**
+> **Lightweight screen-space global illumination implementation that uses screen-space ray marching to approximate indirect lighting, providing affordable GI solution with minimal performance impact**
 
 **Links:** [📁 Repository](https://github.com/alexmalyutindev/unity-poor-gi)
 
@@ -64,17 +57,22 @@ applications.
 
 ### ❄️ Interactive Snow
 
-> **Simulated interactive snow deformation responding to surface collision**
+> **Dynamic snow deformation system featuring real-time surface collision detection, realistic snow accumulation patterns, and interactive footprint generation with GPU-based particle displacement**
 
 **Links:** [🎥 Demo](https://x.com/alexmalyutindev/status/1841541664277475583)
 
-<img src="./files/interactive-snow.png" width="50%">
+<table>
+  <tr>
+    <td align="center"><img src="./files/interactive-snow.png" alt="screenshot" width=90%></td>
+    <td><video src="https://github.com/user-attachments/assets/71913842-7f37-45dc-b771-d3e91cdbd17f" controls></video></td>
+  </tr>
+</table>
 
 ---
 
 ### 🏞️ Geometry-Terrain Blending
 
-> **Seamlessly blends meshes with terrain using screen-space projection and height-based blending**
+> **Advanced mesh-terrain integration system using screen-space height projection and multi-layer blending algorithms to create seamless transitions between geometric objects and terrain surfaces**
 
 **Links:** [📁 Repository](https://github.com/alexmalyutindev/urp-terrain-blend)
 
@@ -86,7 +84,7 @@ applications.
 
 ### 🗺️ Advanced Terrain Mapping
 
-> **Highly optimized triplanar projection with height-based layer blending**
+> **High-performance terrain texturing system featuring optimized triplanar projection mapping and height-based layer blending, supporting unlimited texture layers with smooth transitions and reduced texture stretching**
 
 **Links:** [🎥 Post](https://x.com/alexmalyutindev/status/1859205873580622301)
 
@@ -100,7 +98,7 @@ applications.
 
 ### ☀️ Sun Shafts / God Rays
 
-> **Crysis-style screen-space sun shafts post-processing effect**
+> **Crysis-inspired screen-space sun shafts post-processing effect**
 
 **Links:** [🎥 Demo](https://youtu.be/VdiVuQF2p2k?si=avOAh2tFwUwqt4Iz)
 
@@ -150,7 +148,12 @@ applications.
 
 **Links:** [🎥 Demo](https://x.com/alexmalyutindev/status/1892290284647485745)
 
-https://github.com/user-attachments/assets/9de3770f-b0e7-45c4-8d5b-b0ff8402c5a2
+<table>
+  <tr>
+    <td align="center"><img src="./files/water/water-mud.png"></td>
+    <td><video src="https://github.com/user-attachments/assets/9de3770f-b0e7-45c4-8d5b-b0ff8402c5a2" controls></video></td>
+  </tr>
+</table>
 
 ---
 
@@ -234,8 +237,17 @@ https://github.com/user-attachments/assets/9de3770f-b0e7-45c4-8d5b-b0ff8402c5a2
 - **MaliOC Shader Analyzer**: [📁 Repository](https://github.com/alexmalyutindev/unity-malioc-shader-analyzer) -
   Performance analysis tool for mobile GPU shaders
 
-### Upcoming Projects
-- **Advanced Snow Shaders** - Enhanced snow deformation and accumulation systems
+---
+
+## 🚀 Some Projects I Worked On
+- **WorldShards** - [🌐 Official site](https://www.worldshards.online/) • 🎥 [Gameplay Trailer](https://www.youtube.com/watch?v=f-7fUTS-lP8)<br>
+  *An ambitious sandbox MMORPG set in a vast, open world where players explore, build, and survive together.*
+- **Shenzhen Urban Planning Museum** - 🎥 [Project Video](https://youtu.be/bcMHAZQyaTg)<br>
+  *An interactive exhibition showcasing the city’s future development through large-scale models and digital experiences.*
+- **Marsum** - [🌐 Project site](https://phygitalism.com/marsum_/)<br>
+  *A multiplayer VR game simulating Mars colonization, featuring full-body tracking and real planetary landscapes.*
+- **Interactive Library for the A. S. Pushkin Museum** - 🎥 [Project Video](https://youtu.be/lzkKRj4aI04)<br>
+  *A digital cultural project that transforms classical literature into an engaging, interactive museum experience.*
 
 ---
 
