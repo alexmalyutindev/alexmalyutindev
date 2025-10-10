@@ -1,6 +1,7 @@
 ### Hi there, I'm Alex 👋
 Senior Unity C# Developer and Graphics Programmer. <br>
 
+## 📄 CV: [Preview CV](./Graphics%20Programmer%20-%20Alexandr%20Maliutin.pdf)
 ## 🎨 Portfolio: [View Full Portfolio](./PORTFOLIO.md)
 
 [<img src="https://github.com/alexmalyutindev/unity-urp-radiance-cascades/raw/master/Pictures/direction-first-sponza.png" height=100>](https://github.com/alexmalyutindev/unity-urp-radiance-cascades)
